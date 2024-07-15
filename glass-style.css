@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-image: url(assets/oceano.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover; /*Para ocupar a tela inteira*/
+}
+
+nav{
+    font-family: 'Comic Neue', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+
+    display: sticky;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+    padding: 1rem;
+    margin: 1rem;
+
+    border-radius: 0.5rem;
+    /*border: 1px solid rgba(255, 255, 255, 0.05);*/
+}
+
+ul{
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 2rem;
+}
+
+li{
+    color: white;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+
+    font-size: 1rem;
+
+    transition: 0.1s;
+}
+
+/*a:hover{
+    font-size: 1.1rem;
+}*/
