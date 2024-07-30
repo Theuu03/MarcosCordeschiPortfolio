@@ -6,10 +6,20 @@
 }
 
 header{
-    min-width: 100vw;
     display: flex;
     justify-content: center;
+
+    padding: 1rem 2rem;
+
     background-color: aqua;
+}
+
+nav{
+    background-color: blue;
+
+    border-radius: 1rem;
+
+    padding: 1rem 2rem;
 }
 
 nav ul{
