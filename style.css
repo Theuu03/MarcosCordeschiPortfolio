@@ -5,6 +5,25 @@
     padding: 0;
 }
 
-nav{
-    
+header{
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+
+nav ul{
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+nav *{
+    text-decoration: none;
+
+    color: black;
+    font-family: 'Comic Neue';
+    font-weight: bold;
 }
