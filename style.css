@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
+:root{
+    --branco: #f2f2f2;
+    --verde: #3C583E;
+    --verde2-claro: #c8d2c9;
+    --rose: #BF8079;
+    --rose2-claro: #E2CDC4;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -11,15 +19,11 @@ header{
 
     padding: 1rem 2rem;
 
-    background-color: aqua;
+    background-color: var(--verde);
 }
 
 nav{
-    background-color: blue;
-
-    border-radius: 1rem;
-
-    padding: 1rem 2rem;
+    padding: 0.5rem 2rem;
 }
 
 nav ul{
@@ -30,10 +34,19 @@ nav ul{
     gap: 1rem;
 }
 
-nav *{
-    text-decoration: none;
+nav li > *{
+    border-bottom: solid 1.5px;
+    
+    padding: 3px;
 
-    color: black;
+    text-decoration: none;
+    color: var(--branco);
     font-family: 'Comic Neue';
     font-weight: bold;
+}
+
+nav li > *:hover{
+    background-color: var(--branco);
+
+    color: var(--verde);
 }
